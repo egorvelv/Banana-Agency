@@ -1,0 +1,21 @@
+body, h1, h2, h3, ol, ul, a, p {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica";
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-color: #f4f4f4;
+}

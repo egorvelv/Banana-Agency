@@ -1,0 +1,42 @@
+.button {
+	display: inline-block;
+	border-radius: 6px;
+	border: 1px solid #565656;
+	padding: 10px 20px;
+	color: #565656;
+	transition: color, background-color .6s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.button.-success {
+	background-color: #23db57;
+	border: none;
+	color: #fff;
+}
+
+.button.-success:hover {
+	background-color: salmon;
+}
+
+@media screen and (max-width: 767px) {
+	.button {
+		text-align: center;
+		width: calc(50% - 15px);
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.button {
+		width: 100%;
+		font-size: 25px;
+		margin-bottom: 15px;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
