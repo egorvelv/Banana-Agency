@@ -54,7 +54,7 @@ footer li {
 .footer__date {
 	position: absolute;
 	color: white;
-	bottom: -10px;
+	bottom: 0px;
 }
 
 @media screen and (max-width: 1023px) {
