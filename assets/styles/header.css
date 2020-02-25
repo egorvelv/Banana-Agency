@@ -24,7 +24,7 @@ header a {
 	margin-left: 15px;
 }
 
-.burger {
+.burger__header {
 	display: none;
 	transition: .5s;
 }
@@ -51,24 +51,24 @@ header a {
 		display: none;
 	}
 
-	.burger {
+	.burger__header {
 		display: flex;
 		flex-direction: column;
 	}
 	
-	.burger:hover {
+	.burger__header:hover {
 		transform: translateY(5px);
 	}
 
-	.burger:hover .burger__particle:first-child {
+	.burger__header:hover .burger__particle:first-child {
 		display: none;
 	}
 
-	.burger:hover .burger__particle:nth-child(2) {
+	.burger__header:hover .burger__particle:nth-child(2) {
 		transform: rotate(45deg);
 	}
 
-	.burger:hover .burger__particle:last-child {
+	.burger__header:hover .burger__particle:last-child {
 		transform: rotate(135deg) translateX(-5px) translateY(5px);
 	}
 }

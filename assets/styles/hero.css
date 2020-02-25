@@ -23,6 +23,7 @@
 @media screen and (max-width: 1023px) {
 	.hero {
 		padding: 70px 0;
+		height: auto;
 	}
 
 	.hero__image {
@@ -35,6 +36,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	.hero {
+		height: calc(100vh - 60px);
+	}	
+
 	.hero__about {
 		width: 100%;
 		padding: 35px 0;
@@ -58,6 +63,7 @@
 
 @media screen and (max-width: 560px) {
 	.hero {
+		height: calc(100vh - 60px);
 		padding: 22.5px 0;
 	}
 }

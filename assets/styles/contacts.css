@@ -1,0 +1,20 @@
+.contacts {
+	background-color: #f4f4f4;
+	height: 550px;
+	width: 100%;
+}
+
+.maps {
+	position: relative;
+	width: 100%;
+}
+
+.map {
+	width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+	.contacts {
+		height: 500px;
+	}
+}
