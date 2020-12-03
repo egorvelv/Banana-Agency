@@ -1,4 +1,4 @@
-# [Banana-Agency](https://fraula.github.io/Banana-Agency/)
+# [Banana-Agency](https://egorvelv.github.io/Banana-Agency/)
 
 This is a project where I tried some new things and developed some of my skills. This site is the best project of my own.
 Here yo can find some "adaptive features".
